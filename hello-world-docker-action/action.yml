@@ -12,6 +12,6 @@ outputs:
 runs:
   using: docker
   image: Dockerfile
-  env:
+  args:
     INPUT_WHO_TO_GREET: ${[ inputs.who-to-greet }}
   
